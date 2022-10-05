@@ -1,0 +1,47 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.8rem;
+  background-color: #323232;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 3rem 10%;
+}
+.information h1 {
+  font-size: 4rem;
+  color: #fff;
+  font-family: "VT323", monospace;
+  margin-bottom: 1rem;
+}
+.information p {
+  font-size: 3rem;
+  color: #fff;
+  font-family: "VT323", monospace;
+  max-width: 100%;
+}
+.information a {
+  color: #fff;
+}
+.information a:hover {
+  transform: scale(1.05);
+  color: pink;
+}
+
+.check-me-out {
+  margin-top: 3rem;
+}
+
+/*# sourceMappingURL=App.css.map */
